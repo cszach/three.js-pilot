@@ -21,7 +21,7 @@ I _don't_ want to create new variables (because I would then have to create 3
 variables, one for the geometry, one for the material, and one for the mesh
 itself) or writing `new Mesh( ... )` (because it's lengthy and ugly). I just
 want something as simple as a single function call. I can now accomplish this
-thanks to `three.js-pilot`. :D
+thanks to `three.js-pilot`. :grin:
 
 ## How to use it?
 
@@ -42,9 +42,14 @@ And be sure to visit the [demo][demo] page to see `three.js-pilot` in action!
 
 [demo]: https://you-create.github.io/three.js-pilot/
 
+## Why the name?
+
+If a cube sits in a plane, what is it then? A pilot! :man_pilot:
+
 ## Public Domain!
 
 Everything in this repository (except for the `LICENSE`) is licensed under the
 Creative Commons Zero v1.0 Universal. This means that `three.js-pilot` is a
 dedication to the Public Domain, and you are free to do anything with it (yep,
-attribution not required). A copy of the license is included in the repository.
+attribution not required :smile:). A copy of the license is included in the
+repository.
