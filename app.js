@@ -1,13 +1,5 @@
-// GLOBALS
-
 let scene, camera, renderer, controls;
-
-// Scene, camera & renderer settings
-
-let background = new THREE.Color( 0xdddddd );
-let canvas = document.querySelector( '#app' );
-let antialias = true;
-let fov = 75, aspect = canvas.clientWidth / canvas.clientHeight, near = 0.1, far = 1000;
+const canvas = document.querySelector( '#app' );
 
 if ( THREE.WEBGL.isWebGL2Available() ) {
 
@@ -22,23 +14,19 @@ if ( THREE.WEBGL.isWebGL2Available() ) {
 
 function init() {
 
-	// SCENE, CAMERA, RENDERER, CONTROLS
-
 	scene = new THREE.Scene();
-	camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
+	camera = new THREE.PerspectiveCamera( 75, canvas.clientWidth / canvas.clientHeight, 0.1, 1000 );
 	renderer = new THREE.WebGLRenderer( {
 		canvas,
-		antialias
+		antialias: true
 	} );
 	controls = new THREE.OrbitControls( camera, renderer.domElement );
 
-	scene.background = background;
+	scene.background = new THREE.Color( 0xdddddd );
 	camera.position.set( 0, 3, 10 );
 	renderer.setSize( canvas.clientWidth, canvas.clientHeight );
 	renderer.setPixelRatio( window.devicePixelRatio );
 	controls.enableDamping = true;
-
-	// Kick-start the scene
 
 	kickstart( scene );
 
