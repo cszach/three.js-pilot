@@ -1,0 +1,28 @@
+{
+  "name": "three.js-pilot",
+  "version": "1.1.0",
+  "description": "Simple functions for diagnostic purposes or to kickstart a three.js app",
+  "main": "threejs-pilot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you-create/three.js-pilot.git"
+  },
+  "keywords": [
+    "three-js",
+    "misc",
+    "diagnostic",
+    "kickstart"
+  ],
+  "author": "Nguyen Hoang Duong",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/you-create/three.js-pilot/issues"
+  },
+  "homepage": "https://github.com/you-create/three.js-pilot#readme",
+  "devDependencies": {
+    "eslint-config-mdcs": "^4.2.3"
+  }
+}
