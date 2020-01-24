@@ -40,6 +40,9 @@ For more details, read the docstrings that I've added in `threejs-pilot.js`.
 And be sure to visit the [demo][demo] page to see `three.js-pilot` in action!
 :rocket:
 
+If you want to import `three.js-pilot` as a module, use
+`threejs-pilot.module.js`.
+
 [demo]: https://you-create.github.io/three.js-pilot/
 
 ## Why the name?
