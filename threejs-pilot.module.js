@@ -72,7 +72,7 @@ function addPlane( scene, geo, mat ) {
  */
 function addDirectionalLight( scene, position, color, intensity, helper = true ) {
 
-	position = position || { x: 5, y: 10, z: 7.5 }
+	position = position || { x: 5, y: 10, z: 7.5 };
 	color = color || 0xffffff;
 	intensity = intensity || 1;
 
@@ -86,7 +86,7 @@ function addDirectionalLight( scene, position, color, intensity, helper = true )
 
 	scene.add( light, helper );
 
-	return { light, helper }
+	return { light, helper };
 
 }
 
@@ -106,7 +106,7 @@ function addDirectionalLight( scene, position, color, intensity, helper = true )
  */
 function addPointLight( scene, position, color, intensity, distance, decay, helper = true ) {
 
-	position = position || { x: 5, y: 10, z: 7.5 }
+	position = position || { x: 5, y: 10, z: 7.5 };
 	color = color || 0xffffff;
 	intensity = intensity || 1;
 	distance = distance || 0;
@@ -122,7 +122,7 @@ function addPointLight( scene, position, color, intensity, distance, decay, help
 
 	scene.add( light, helper );
 
-	return { light, helper }
+	return { light, helper };
 
 }
 
