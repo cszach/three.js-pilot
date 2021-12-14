@@ -43,7 +43,7 @@ And be sure to visit the [demo][demo] page to see `three.js-pilot` in action!
 If you want to import `three.js-pilot` as a module, use
 `threejs-pilot.module.js`.
 
-[demo]: https://you-create.github.io/three.js-pilot/
+[demo]: https://novakcgx.github.io/three.js-pilot/
 
 ## Why the name?
 
